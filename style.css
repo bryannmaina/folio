@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: all 3s linear;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(46, 58, 54);
+    position: fixed;
+    line-height: 75px;
+    padding: 0px 100px;
+    
+}
+nav .portfolio p{
+    float: left;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none; 
+}
+nav ul li a{
+    list-style-type:none;
+    list-style: none;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 0px 32px;
+
+}
+
+.image .img{
+    width: 100%;
+    height: 0px auto;
+}
+.split{
+    height: 10px;
+    width: 100%;
+    background-color: aquamarine;
+}
+nav ul li a:hover{
+    background-color: rgb(111, 111, 158);
+    font-size: 22px;
+    border-radius: 23px;
+    transition: all 5s ease-in;
+}
+.footer{
+    background-color: rgb(46, 58, 54);
+    text-align: center;
+    height: 100px;
+    font-size: 20px;
+    color: white;
+
+}
+
+.copyright{
+    color: white;
+    font-size: 25px;
+    padding: 0px 32px;
+}
+.span{
+    color: white;
+    font-size: 25px;
+}
+.icons{
+    padding: 25px;
+}
